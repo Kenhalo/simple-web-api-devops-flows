@@ -38,7 +38,7 @@ jobs:
       run: npm test
 
     - name: 'Build Docker image for testing'
-      run: docker build -t temp-security-scan:latest .
+      run: docker build --no-cache -t  temp-security-scan:latest .
 
     - name: 'Install Trivy scanner'
       run: |
