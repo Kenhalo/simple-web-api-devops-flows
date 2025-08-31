@@ -131,17 +131,17 @@ terraform apply
 
 ### 🔧 CI/CD Pipeline
 Continuous Integration
-✅ Code linting (ESLint)
-✅ Unit testing (Jest)
-✅ Docker build
-✅ Security scanning (Trivy)
+- Code linting (ESLint)
+- Unit testing (Jest)
+- Docker build
+- Security scanning (Trivy)
 
 Continuous Deployment (main branch only)
-✅ Multi-stage Docker build
-✅ Push to Artifact Registry (versioned + latest)
-✅ Deploy to Cloud Run
-✅ Health check validation
-✅ Zero-downtime deployment
+- Multi-stage Docker build
+- Push to Artifact Registry (versioned + latest)
+- Deploy to Cloud Run
+- Health check validation
+- Zero-downtime deployment
 
 ### Triggering Deployment
 ```bash
