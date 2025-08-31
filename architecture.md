@@ -8,6 +8,7 @@ graph TB
     C --> G[Trivy Security Scan]
     
     G --> H{CD Pipeline}
+    H --> I[Terraform Validate]
     H --> J[Push to Artifact Registry]
     J --> K[Deploy to Cloud Run]
     
@@ -44,7 +45,6 @@ graph TB
     style P fill:#E1BEE7,stroke:#7B1FA2,stroke-width:2px,color:#000
     
     %% CD Steps
-    style I fill:#E8F5E8,stroke:#388E3C,stroke-width:2px,color:#000
     style J fill:#E8F5E8,stroke:#388E3C,stroke-width:2px,color:#000
     style K fill:#E8F5E8,stroke:#388E3C,stroke-width:2px,color:#000
     
