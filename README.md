@@ -1,8 +1,4 @@
-# simple-web-api-devops-flows
-DevOps Take Home Technical Challenge
-Last demo: Mon Sep  1 03:08:28 +07 2025
-
-# DevOps Interview Task - Hello World API
+# DevOps Take Home Challenge - Hello World API
 
 ![CI/CD Pipeline](https://github.com/Kenhalo/simple-web-api-devops-flows/workflows/CI/CD%20Pipeline/badge.svg)
 
@@ -146,7 +142,7 @@ Continuous Deployment (main branch only)
 ### Triggering Deployment
 ```bash
 git add .
-git commit -m "Your changes"
+git commit -m "changes"
 git push origin main  # Triggers automatic deployment
 ```
 
@@ -169,13 +165,13 @@ git push origin main  # Triggers automatic deployment
 -run.admin - Deploy Cloud Run services
 -iam.serviceAccountUser - Service account impersonation
 
-💰 Cost Estimate
+## 💰 Cost Estimate
 
 ### Monthly Costs (Free Tier)
 -Cloud Run: $0 (2M requests/month free)
 -Artifact Registry: ~$0.10 (1GB storage)
 -Cloud Logging: $0 (50GB/month free)
--Total: < $1/month 📈
+-Total: < $1/month 
 
 ### Scaling Costs
 -Cloud Run: $0.000024/request after free tier
