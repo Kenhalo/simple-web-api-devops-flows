@@ -29,8 +29,6 @@ terraform/*.tfplan.*
 github-sa-key.json
 
 # GCP credentials (SECURITY - never commit these!)
-*.json
-*-key.json
 service-account-*.json
 github-actions-key.json
 gcp-service-account.json
