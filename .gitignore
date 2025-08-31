@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.test
+
+# Gcloud CLI
+google-cloud-sdk/
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/.terraform.lock.hcl
+terraform/terraform.tfvars
+terraform/crash.log
+terraform/crash.*.log
+terraform/*.tfplan
+terraform/*.tfplan.*
+
+# GCP Service Account Keys
+*-key.json
+github-sa-key.json
+
+# GCP credentials (SECURITY - never commit these!)
+*.json
+*-key.json
+service-account-*.json
+github-actions-key.json
+gcp-service-account.json
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Build artifacts
+dist/
+build/
