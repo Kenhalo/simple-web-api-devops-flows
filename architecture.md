@@ -1,3 +1,4 @@
+```mermaid
 graph TB
     A[GitHub Repository] --> B[GitHub Actions]
     B --> C{CI Pipeline}
