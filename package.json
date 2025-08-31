@@ -1,7 +1,7 @@
 {
   "name": "devops-interview-task",
   "version": "1.0.0",
-  "description": "Hello World API for DevOps interview task",
+  "description": "Hello World API for DevOps workflow",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
