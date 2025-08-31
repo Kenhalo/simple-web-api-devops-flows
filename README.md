@@ -7,7 +7,7 @@ Last demo: Mon Sep  1 03:08:28 +07 2025
 ![CI/CD Pipeline](https://github.com/Kenhalo/simple-web-api-devops-flows/workflows/CI/CD%20Pipeline/badge.svg)
 
 ##  Live Demo
-**Service URL:** [Your Cloud Run URL will appear here after deployment]
+**Service URL:** 
 
 ##  Overview
 A simple Node.js "Hello World" API demonstrating modern DevOps practices with automated CI/CD pipeline, containerization, and cloud deployment on Google Cloud Platform.
@@ -27,7 +27,6 @@ graph TB
     C --> G[Trivy Security Scan]
     
     G --> H{CD Pipeline}
-    H --> I[Terraform Validate]
     H --> J[Push to Artifact Registry]
     J --> K[Deploy to Cloud Run]
     
