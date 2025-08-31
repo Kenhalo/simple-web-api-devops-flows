@@ -1,7 +1,7 @@
 {
-  "name": "devops-interview-task",
+  "name": "devops-web-api-task",
   "version": "1.0.0",
-  "description": "Hello World API for DevOps workflow",
+  "description": "Hello World API for DevOps Flows",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -9,16 +9,12 @@
     "lint": "eslint *.js",
     "dev": "node app.js"
   },
-  "keywords": [
-    "nodejs",
-    "express",
-    "devops",
-    "docker",
-    "gcp"
-  ],
   "overrides": {
-    "cross-spawn": "7.0.5"
+    "cross-spawn": "7.0.6"
   },
+  "keywords": ["nodejs", "express", "devops", "docker", "gcp"],
+  "author": "kenhalo", 
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
   },
